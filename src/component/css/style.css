@@ -1,0 +1,57 @@
+body,h1,h2,h3,h4,h5,h6,ul{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font:18px/1.5em 微软雅黑;
+}
+div.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+div.nav ul{
+    list-style: none;
+    display: flex;
+}
+div.nav ul li{
+    flex:1;
+    text-align: center;
+}
+div.nav ul a{
+    text-decoration: none;
+    background: #f00;
+    color: #fff;
+    display: block;
+    padding:5px;
+}
+div.nav ul a:hover{
+    background:#fff;
+    color: #f00;
+}
+
+div.banner img{
+    width: 100%;
+    vertical-align: top;
+}
+div.content{
+    background: #333;
+     color: #fff;
+     width: 100%;
+    }
+div.content #divimg{
+    width: 70%;
+}
+div.content span{
+    width: 30%;
+}
+div.footer{
+    background: #09f;
+    color: #fff;
+    /* position: fixed;
+    bottom:0px;
+    left:0px; */
+    width: 100%;
+    text-align: center;
+}
+
